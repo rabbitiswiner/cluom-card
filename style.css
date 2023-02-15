@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
+/* font-family: 'Gulzar', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
+/* font-family: 'Gulzar', serif; */
+#containar{
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    font-family: 'Gulzar', serif;
+    background-color:hsl(0, 0%, 95%);
+}
+#containar #content {
+    position: relative;
+    width: 900px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+#containar #content #sedans {
+    width: 300px;
+    height: 100%;
+    background-color:  hsl(31, 77%, 52%);
+    padding: 40px 40px 40px 40px;
+}
+#containar #content #sedans h1 {
+    color: white;
+    margin-top: -20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+#containar #content #sedans p {
+    color:  hsla(0, 0%, 100%, 0.75);
+    margin-top: -30px;
+}
+#containar #content #sedans button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+#containar #content #suvs {
+    width: 300px;
+    height: 100%;
+    background-color:  hsl(184, 100%, 22%);
+    padding: 40px 40px 40px 40px;
+}
+#containar #content #suvs h1 {
+    color: white;
+    margin-top: -20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+#containar #content #suvs p {
+    color:  hsla(0, 0%, 100%, 0.75);
+    margin-top: -30px;
+}
+#containar #content #suvs button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+#containar #content #luxury {
+    width: 300px;
+    height: 100%;
+    background-color:  hsl(179, 100%, 13%);
+    padding: 40px 40px 40px 40px;
+}
+#containar #content #luxury h1 {
+    color: white;
+    margin-top: -20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+#containar #content #luxury p {
+    color:  hsla(0, 0%, 100%, 0.75);
+    margin-top: -30px;
+}
+#containar #content #luxury button {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
